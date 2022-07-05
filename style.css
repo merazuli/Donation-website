@@ -1,0 +1,179 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+.header-section {
+    height: 650px;
+    width: 100%;
+    background-image: url("images/donation10.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.header-text h1 {
+    font-size: 60px;
+    padding: 50px;
+    color: white;
+}
+
+.header-text p {
+    font-size: 18px;
+    align-items: center;
+    color: beige;
+    margin: 50px;
+}
+
+.donate-btn {
+    padding: 15px 40px;
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 5px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #241a1a;
+
+}
+
+.donate-amount {
+    display: flex;
+    margin: 20px 150px;
+}
+
+.donate-amount h2 {
+    height: 100px;
+    padding: 15px 30px;
+    background-color: #f7f7f7;
+    margin: 30px 30px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.donate-amount .two {
+    border: 2px solid red;
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+.input-text {
+    text-align: center;
+    width: 50%;
+    margin-left: 300px;
+    text-decoration: none;
+    margin-bottom: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.btn {
+    margin-left: 600px;
+}
+
+
+
+
+.donate-plan {
+    margin-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+
+.donate-plan p {
+    text-align: center;
+    font-size: 18px;
+    color: #241a1a;
+}
+
+.donate-card {
+    display: flex;
+    margin-left: 100px;
+}
+
+.card {
+    width: 350px;
+    height: 400px;
+    background-color: rgb(231, 172, 172);
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.card img {
+    height: 70px;
+    width: 80px;
+    padding-top: 50px;
+}
+
+.card h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+}
+
+
+
+.email-card {
+    width: 70%;
+    height: 150px;
+    background-color: rgba(177, 197, 66, 0.76);
+    margin: 30px auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.email {
+    padding: 10px 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.384);
+    font-size: 20px;
+    border: 1px solid yellow;
+    color: white;
+    text-decoration: none;
+}
+
+.tomato-color {
+    background-color: tomato;
+}
+
+footer {
+    background-color: black;
+    height: 200px;
+    width: 100%;
+}
+
+footer h1 {
+    color: red;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+footer p {
+    color: white;
+}
