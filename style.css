@@ -1,7 +1,10 @@
-body {
-    font-family: 'Roboto', sans-serif;
+* {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 section {
@@ -11,7 +14,7 @@ section {
 .header-section {
     height: 650px;
     width: 100%;
-    background-image: url("images/donation10.jpg");
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/donation2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,7 +27,7 @@ section {
 .header-text h1 {
     font-size: 60px;
     padding: 50px;
-    color: white;
+    color: yellow;
 }
 
 .header-text p {
@@ -46,6 +49,7 @@ h1 {
     text-align: center;
     color: black;
     font-size: 50px;
+    margin-bottom: 30px;
 }
 
 p {
@@ -57,21 +61,22 @@ p {
 
 .donate-amount {
     display: flex;
-    margin: 20px 150px;
+    width: 60%;
+    margin: 30px auto;
 }
 
 .donate-amount h2 {
-    height: 100px;
+    height: 80px;
     padding: 15px 30px;
     background-color: #f7f7f7;
-    margin: 30px 30px;
-    justify-content: center;
-    margin: 0 auto;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 50px;
 }
 
 .donate-amount .two {
-    border: 2px solid red;
-    background-color: yellow;
+    border: 3px solid yellow;
+    background-color: rgba(150, 53, 29, 0.521);
     border-radius: 5px;
 }
 
@@ -108,17 +113,63 @@ h1 {
     color: #241a1a;
 }
 
+/* Blog-Section start from here */
+.full-blog {
+    display: flex;
+    width: 80%;
+    margin: 30px auto;
+
+}
+
+.blog-text {
+    width: 500px;
+}
+
+.blog-text h1 {
+    font-size: 30px;
+    margin: 30px 40px;
+}
+
+.blog-text p {
+    text-align: center;
+}
+
+.blog-img img {
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+/* Blog-section Ends here */
+
 .donate-card {
     display: flex;
     margin-left: 100px;
 }
 
+
+
+
+
+
 .card {
     width: 350px;
     height: 400px;
-    background-color: rgb(231, 172, 172);
-    border-radius: 5px;
+    background-color: rgb(182, 231, 172);
+    border-radius: 8px;
     margin: 15px;
+}
+
+.food-card {
+    background-color: #4f9da61a;
+}
+
+.edu-card {
+    background-color: #fff4d6;
+}
+
+.medi-card {
+    background-color: #ff59591a;
 }
 
 .card img {
@@ -130,6 +181,11 @@ h1 {
 .card h3 {
     text-align: center;
     font-size: 30px;
+}
+
+.card p {
+    text-align: center;
+    padding: 10px;
 }
 
 p {
@@ -148,14 +204,13 @@ p {
 }
 
 .email {
-    padding: 10px 20px;
+    padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
-    background-color: rgba(128, 128, 128, 0.384);
-    font-size: 20px;
-    border: 1px solid yellow;
-    color: white;
-    text-decoration: none;
+    color: gray;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .tomato-color {
@@ -172,6 +227,12 @@ footer h1 {
     color: red;
     font-size: 30px;
     padding-top: 30px;
+    font-family: 'Lobster', cursive;
+    margin: 30px auto;
+}
+
+footer .name {
+    color: yellow;
 }
 
 footer p {
